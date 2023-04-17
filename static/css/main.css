@@ -1,0 +1,47 @@
+/* Set margin and font-family for entire document */
+body, html {
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  /* Center content and set width */
+  .content {
+    margin: 0 auto;
+    width: 100px;
+  }
+  
+  /* Add borders to table elements */
+  table, td, th {
+    border: 1px solid #aaa;
+    text-align: center;
+  }
+  
+  /* Collapse table borders and set width */
+  table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0 auto; /* Center the table within its container */
+  }
+  
+  /* Set height of table header cells */
+  th {
+    height: 10px;
+  }
+  
+  /* Center table data and add padding */
+  td {
+    text-align: center;
+    padding: 5px;
+  }
+  
+  /* Add margin to form element */
+  .form {
+    margin-top: 20px;
+  }
+  
+  /* Adjust width of #content element */
+  #content {
+    width: 40%;
+    margin-top: 20px;
+  }
